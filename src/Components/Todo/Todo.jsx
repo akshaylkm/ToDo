@@ -23,20 +23,14 @@ function Todo(props) {
   };
   return (
     <div className=" basis-1/2 sm:border-r-4 ">
-      <div className=" h-16 w-auto">
+      <div className=" h-16 w-16">
         <img
           src="https://to-do-cdn.microsoft.com/static-assets/c87265a87f887380a04cf21925a56539b29364b51ae53e089c3ee2b2180148c6/icons/logo.png"
           alt="logo"
         />
       </div>
       <div className="">
-        <h1 className=" text-center p-11 text-4xl font-bold">TODO</h1>
-        <p className="text-center sm:px-36 sm:text-xl text-gray-900">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet at
-          eleifend feugiat vitae faucibus nibh dolor dui. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Aliquet at eleifend feugiat vitae
-          faucibus nibh dolor dui.
-        </p>
+        <h1 className=" text-center px-11 text-4xl font-bold">ToDo</h1>
         <form onSubmit={addItemsHandler}>
           <div className="flex justify-center mt-9">
             <input

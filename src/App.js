@@ -10,7 +10,7 @@ function App() {
     };
   
   return <div>
-    <div className=" p-1 sm:p-16 flex-wrap sm:flex h-screen ">
+    <div className=" p-3 sm:p-16 flex-wrap sm:flex h-screen ">
     <Todo onSaveTodoData={saveTodoDataHandler}/>
     <Todolist todos={todolistData}/>
     </div>
